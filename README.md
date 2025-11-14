@@ -43,13 +43,20 @@ Pengguna memilih salah satu opsi:
 
 ## 📁 Project Structure
 Copy code
+
 height-tracker/
+
 │── main.py
-│── utils.py        # (Opsional) Utilitas, fungsi pembantu
+
+│── utils.py # (Opsional)
+
 │── data/
+
 │   │── measurements.json  # Berkas JSON untuk menyimpan data tinggi badan
 │── README.md
+
 └── LICENSE         # (Opsional) Lisensi proyek
+
 ## 📘 Contoh Riwayat Pengukuran Tinggi Badan
 
 Berikut ini adalah contoh bagaimana riwayat pengukuran tinggi badan dapat disimpan dalam format TXT dan JSON:
