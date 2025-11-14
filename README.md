@@ -43,10 +43,9 @@ Pengguna memilih salah satu opsi:
 
 *   ## 📁 Struktur Proyek
 
-  
-Copy code
+
 height-tracker/
-│── main.py         # Script utama aplikasi
+│── main.py        
 │── ui.py           # (Opsional) Modul untuk antarmuka pengguna (GUI atau CLI)
 │── utils.py        # (Opsional) Utilitas, fungsi pembantu
 │── data/
