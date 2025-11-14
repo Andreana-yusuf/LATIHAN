@@ -63,23 +63,35 @@ Berikut ini adalah contoh bagaimana riwayat pengukuran tinggi badan dapat disimp
 
 **Versi TXT:**
 Copy code
+
 Tinggi: 175.5 cm
+
 Usia: 25 tahun
+
 Tanggal: 2024-01-01
+
 Catatan: Pengukuran setelah makan siang.
+
 markdown
+
 Copy code
+
 **Versi JSON:**
+
 json
+
 Copy code
+
 [
   {
+  
     "tanggal": "2024-01-01",
     "tinggi_badan": 175.5,
     "usia": 25,
     "catatan": "Pengukuran setelah makan siang."
   },
   {
+  
     "tanggal": "2024-02-15",
     "tinggi_badan": 176.0,
     "usia": 25,
