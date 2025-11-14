@@ -41,31 +41,15 @@ Pengguna memilih salah satu opsi:
 
 *   Aplikasi ditutup.
 
-*   ## 📁 Struktur Proyek
-
-
+## 📁 Project Structure
+Copy code
 height-tracker/
-│── main.py        
-│── ui.py           # (Opsional) Modul untuk antarmuka pengguna (GUI atau CLI)
+│── main.py
 │── utils.py        # (Opsional) Utilitas, fungsi pembantu
 │── data/
 │   │── measurements.json  # Berkas JSON untuk menyimpan data tinggi badan
-│── README.md       # Deskripsi proyek
+│── README.md
 └── LICENSE         # (Opsional) Lisensi proyek
-
-  ## 📘 Contoh Format Data Tinggi Badan (Opsional)
-
-Untuk menyimpan data tinggi badan,Anda bisa menggunakan format yang sederhana,Contoh nya sebagai berikut:
-json
-Copy code
-{
-  "tanggal": "2024-01-01",
-  "tinggi_badan": 175.5,
-  "usia": 25,
-  "catatan": "Pengukuran setelah makan siang."
-}
-markdown
-Copy code
 ## 📘 Contoh Riwayat Pengukuran Tinggi Badan
 
 Berikut ini adalah contoh bagaimana riwayat pengukuran tinggi badan dapat disimpan dalam format TXT dan JSON:
