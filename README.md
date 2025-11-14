@@ -42,15 +42,16 @@ Pengguna memilih salah satu opsi:
 *   Aplikasi ditutup.
 
 *   ## 📁 Struktur Proyek
-
-  
-**Penjelasan:**
-
-*   **`height-calculator-cli/`**: Folder akar proyek.
-*   **`main.py`**: File utama yang berisi logika program utama (menu, input, output, alur program).
-*   **`height_data_handler.py`** (opsional):  File yang berisi fungsi-fungsi untuk menyimpan dan membaca data tinggi badan dari file (pemisahan logika). 
-*   **`history.txt` / `history.json`**: File untuk menyimpan riwayat pengukuran tinggi badan. Bisa dalam format teks biasa (`.txt`) atau JSON (`.json`). Pilih salah satu.
-*   **`README.md`**: File dokumentasi proyek (deskripsi, cara menjalankan, dll.).
+## 📁 Project Structure
+Copy code
+height-tracker/
+│── main.py         # Script utama aplikasi
+│── ui.py           # (Opsional) Modul untuk antarmuka pengguna (GUI atau CLI)
+│── utils.py        # (Opsional) Utilitas, fungsi pembantu
+│── data/
+│   │── measurements.json  # Berkas JSON untuk menyimpan data tinggi badan
+│── README.md       # Deskripsi proyek
+└── LICENSE         # (Opsional) Lisensi proyek
 
   ## 📘 Contoh Format Data Tinggi Badan (Opsional)
 
